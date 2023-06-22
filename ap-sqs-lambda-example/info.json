@@ -1,0 +1,17 @@
+{
+       "ec2_type": "t2.micro",
+       "key_name": "id_rsa",
+       "generation": "ec2.AmazonLinuxGeneration.AMAZON_LINUX",
+       "edition": "ec2.AmazonLinuxEdition.STANDARD",
+       "virtualization": "ec2.AmazonLinuxVirt.HVM",
+       "storage": "ec2.AmazonLinuxStorage.GENERAL_PURPOSE",
+       "subnet_type": "ec2.SubnetType.PUBLIC",
+       "instance_name": "myBastionHostLinux",
+       "internet_facing": "True",
+       "load_balancer_name": "myALB",
+       "ServicePrincipal": "apigateway.amazonaws.com",
+       "add_method": "ANY",
+       "status_code": "200",
+       "integration_http_method": "POST"     
+
+}
